@@ -1,0 +1,25 @@
+Key =   , Value = 12
+Key = a , Value = 10
+Key = b , Value = 3
+Key = c , Value = 1
+Key = d , Value = 3
+Key = e , Value = 8
+Key = f , Value = 3
+Key = h , Value = 5
+Key = i , Value = 5
+Key = j , Value = 3
+Key = 
+ , Value = 2
+Key = l , Value = 2
+Key = m , Value = 2
+Key = n , Value = 3
+Key = . , Value = 1
+Key = o , Value = 5
+Key = p , Value = 1
+Key = r , Value = 2
+Key = s , Value = 10
+Key = t , Value = 5
+Key = v , Value = 1
+Key = w , Value = 2
+Key = x , Value = 1
+Key = y , Value = 1
