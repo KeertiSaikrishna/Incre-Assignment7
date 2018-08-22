@@ -3,13 +3,11 @@ import java.io.FileWriter;
 import java.io.PrintWriter;
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws Exception {
         HashMap<Character, Integer> mp = new HashMap<Character, Integer>();
-        Scanner sc = new Scanner(System.in);
-        String str = sc.nextLine();
+        String str = args[0];
         FileReader fr = new FileReader(str);
 
         int i=0;
