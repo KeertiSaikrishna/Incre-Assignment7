@@ -13,18 +13,17 @@ public class Charactercount {
         FileReader fr = new FileReader(str);
         // creating file reader to read the file
 
-        int i=0;
+        int i = 0;
         // creating a temporary variable for iteration
-        char c='a';
+        char c = 'a';
         // creating a temporary character variable for character at each index
 
-        while ((i=fr.read()) != -1){
-            c = (char)i;
+        while ((i = fr.read()) != -1) {
+            c = (char) i;
             Integer val = map.get(c);
             if (val != null) {
                 map.put(c, new Integer(val + 1));
-            }
-            else {
+            } else {
                 map.put(c, 1);
             }
         }
@@ -33,9 +32,11 @@ public class Charactercount {
         // creating the file writer and print writer objects to write the charater count on to another file
 
         for (Map.Entry<Character, Integer> entry : map.entrySet()) {
-            pw.printf("Key = %c , Value = %d\n",entry.getKey(),entry.getValue());
+            pw.printf("Key = %c , Value = %d\n", entry.getKey(), entry.getValue());
         }
         // writing the character count into a second file
         pw.close();
     }
+}
+
 }
